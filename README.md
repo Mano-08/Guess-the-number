@@ -10,4 +10,7 @@ Most of the logic used where from my class 11th Computer Science classes, from l
 
 I'll try to add Graphic interface this time using tkinker.
 
-
+##TO DO:
+[ ] add picture to bio of project
+[ ] try out tkinker
+[ ] add more features like count of trials
