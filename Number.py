@@ -18,4 +18,8 @@ while c==1:
         print("YAY! Congratulations!! You've guessed the correct number")
         print("If you wanna try again, click y or click n to quit")
         d=input("Enter your choice:")
-        
+        if d=='y' or d=="Y":
+            guess_no=int(input("Enter the number you guessed: "))
+            actual_no=randint(1,10**3)
+        else:
+            c=2
