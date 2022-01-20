@@ -18,8 +18,8 @@ while c==1:
             break
         else:
             print('Invalid Input')
-            digit=input('How many decimal places would you want for Pi to have?')
-            a=1
+            guess_no=input('Enter the number you guessed: ')
+            c=1
     if guess_no>actual_no:
         print("HOT!")
     elif guess_no<actual_no:
