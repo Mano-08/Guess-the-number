@@ -20,16 +20,17 @@ while c==1:
             print('Invalid Input')
             guess_no=input('Enter the number you guessed: ')
             c=1
-    if guess_no>actual_no:
-        print("HOT!")
-    elif guess_no<actual_no:
-        print("COLD!")
-    else:
-        print("YAY! Congratulations!! You've guessed the correct number")
-        print("If you wanna try again, click y or click n to quit")
-        d=input("Enter your choice:")
-        if d=='y' or d=="Y":
-            guess_no=int(input("Enter the number you guessed: "))
-            actual_no=randint(1,10**3)
+    else:    
+        if guess_no>actual_no:
+            print("HOT!")
+        elif guess_no<actual_no:
+            print("COLD!")
         else:
-            c=2
+            print("YAY! Congratulations!! You've guessed the correct number")
+            print("If you wanna try again, click y or click n to quit")
+            d=input("Enter your choice:")
+            if d=='y' or d=="Y":
+                guess_no=int(input("Enter the number you guessed: "))
+                actual_no=randint(1,10**3)
+            else:
+                c=2
