@@ -20,7 +20,8 @@ while c==1:
             print('Invalid Input')
             guess_no=input('Enter the number you guessed: ')
             c=1
-    else:    
+    else:
+        #add more interactive message box    
         if guess_no>actual_no:
             print("HOT!")
         elif guess_no<actual_no:
