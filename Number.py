@@ -32,5 +32,7 @@ while c==1:
             if d=='y' or d=="Y":
                 guess_no=int(input("Enter the number you guessed: "))
                 actual_no=randint(1,10**3)
-            else:
+            elif d=='n' or d=='N':
+
+                #add exit window message here
                 c=2
