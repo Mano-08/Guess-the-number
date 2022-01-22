@@ -34,8 +34,8 @@ while c==1:
             count+=1
             print("YAY! Congratulations!! You've guessed the correct number")
 
-"""add print no of trials statement here
-work on no of trials algorith ok?"""
+#add print no of trials statement here
+#work on no of trials algorith ok?
 
             print("If you wanna try again, click y or click n to quit")
             d=input("Enter your choice:")
