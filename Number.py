@@ -36,7 +36,7 @@ while c==1:
 
 #add print no of trials statement here
 #work on no of trials algorith ok?
-
+            print("This is the number of Trials you've had: ", count)
             print("If you wanna try again, click y or click n to quit")
             d=input("Enter your choice:")
             if d=='y' or d=="Y":
