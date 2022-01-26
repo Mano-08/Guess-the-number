@@ -33,7 +33,7 @@ while c==1:
         else:
             count+=1
             print("YAY! Congratulations!! You've guessed the correct number")
-
+            print("Number of trials you've had: ")
 #add print no of trials statement here
 #work on no of trials algorith ok?
             print("This is the number of Trials you've had: ", count)
